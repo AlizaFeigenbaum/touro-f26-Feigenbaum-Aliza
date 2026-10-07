@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(24, 1, 51);
+  background-color:rgb(79, 3, 66);
   font-family:Arial, Helvetica, sans-serif;
   padding: 1rem;
 }
@@ -8,61 +8,64 @@ section, header, main, footer {
   margin-bottom: 0.5rem;
 }
 header{
-  background-color:rgb(153, 48, 182);
+  background-color:rgb(252, 2, 210);
   line-height: 2.5;
   padding: 1rem;
   margin-bottom: 1rem;
 }
 .picture1 {
-  background-color:blueviolet;
+  background-color:rgb(231, 112, 211);
   padding: 1rem;
   line-height:10;
+  width: 100%;
 }
 .picture2 {
-  background-color:darkmagenta;
+  background-color:rgb(186, 89, 186);
   padding: 1rem;
   line-height:10;
 }
 .picture3 {
-  background-color:darkorchid;
+  background-color:rgb(218, 61, 191);
   padding: 1rem;
   line-height:10;
 }
 .picture4 {
-  background-color: darkslateblue;padding: 1rem;
+  background-color:rgb(219, 139, 206);
+  padding: 1rem;
   line-height:10;
 }
 .picture5 {
-  background-color: darkviolet;
+  background-color:rgb(191, 78, 172);
   padding: 1rem;
   line-height:10;
 }
 .picture6 {
-  background-color: deeppink;
+  background-color:rgb(213, 134, 176);
   padding: 1rem;
   line-height:10;
 }
 .picture7 {
-  background-color: fuchsia;
+  background-color:rgb(189, 68, 169);
   padding: 1rem;
   line-height:10;
 }
 .picture8 {
-  background-color: hotpink;
+  background-color:rgb(129, 36, 114);
   padding: 1rem;
   line-height:10;
 }
 .picture9 {
-  background-color:indianred;
+  background-color:rgb(244, 145, 228);
   padding: 1rem;
   line-height:10;
 }
 .picture10 {
-  background-color: lightcoral;
+  background-color:rgb(252, 71, 222);
   padding: 1rem;
   line-height:10;
 }
-footer {background-color:rgb(107, 4, 83);
+footer {
+   background-color:rgb(207, 132, 194);
   padding: 1rem;
   line-height:2.5;
 }
