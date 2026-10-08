@@ -23,6 +23,11 @@ header{
   padding: 1rem;
   margin-bottom: 1rem;
 }
+h1 {
+  background-color:rgb(51, 61, 143);
+  padding: 1rem;
+  line-height:10;
+}
 main{
   background-color:rgb(76, 92, 233);
   padding: 1rem;
@@ -45,7 +50,7 @@ main{
   line-height:10;
 }
 .earrings {
-  background-color:rgb(76, 92, 235);
+  background-color:rgb(127, 139, 242);
   padding: 1rem;
   line-height:10;
 }
