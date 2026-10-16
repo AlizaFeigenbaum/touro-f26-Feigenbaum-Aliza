@@ -9,48 +9,60 @@ section, header, main, footer {
 }
 header{
   background-color: tomato;
-  line-height: 2.5;
+  line-height:4;
   padding: 1rem;
   margin-bottom: 1rem;
 }
 main{
-  background-color: rgb(220, 107, 87);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+h1{
+  background-color: rgb(202, 105, 87);
   padding: 1rem;
-  line-height: 40;
+  line-height:30;
+  grid-column: 2/12;
 }
 .picture1 {
   background-color: rgb(236, 138, 121);
   padding: 1rem;
   line-height:10;
+  grid-column: 3/5;
 }
 .picture2 {
   background-color: rgb(190, 62, 40);
   padding: 1rem;
   line-height:10;
+  grid-column: 5/7;
 }
 .picture3 {
   background-color: rgb(241, 155, 140);
   padding: 1rem;
   line-height:10;
+  grid-column: 7/9;
 }
 .picture4 {
   background-color: rgb(156, 61, 61);
   padding: 1rem;
   line-height:10;
+  grid-column: 9/11;
 }
 .information {
   background-color: rgb(169, 45, 45);
   padding: 1rem;
   line-height:25;
+  grid-column: 2/12;
 }
 .cart {
   background-color: rgb(196, 101, 84);
   padding: 1rem;
   line-height:10;
   width: 100%;
+  grid-column: 5/9;
 }
 footer {
     background-color: rgb(184, 82, 64);
   padding: 1rem;
-  line-height:2.5;
+  line-height:4;
 }
