@@ -18,6 +18,7 @@ main{
   grid-template-columns: repeat(12, 1fr);
   gap: 1rem;
 }
+/*used grid column to center different lines with different size boxes. centered each box and set of boxes on the page*/
 h1{
   background-color: rgb(202, 105, 87);
   padding: 1rem;

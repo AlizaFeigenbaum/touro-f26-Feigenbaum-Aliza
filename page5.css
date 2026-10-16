@@ -14,6 +14,7 @@ header{
   padding: 1rem;
   margin-bottom: 1rem;
 }
+/* added flex, align and grid template rows to move the footer and button to the bottom of the page*/
 main{
   display: grid;
   grid-template-columns: repeat(12, 1fr);

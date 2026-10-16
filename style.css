@@ -40,6 +40,7 @@ h1 {
   line-height:5;
   grid-column: 1/13
 }
+/*used grid-column to line up the place where pictures will go into rows of 2. Did 1/7 and 7/13 to center it on the page.*/
 .resin {
   background-color:rgb(97, 110, 226);
   padding: 1rem;
