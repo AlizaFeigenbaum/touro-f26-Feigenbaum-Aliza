@@ -9,9 +9,14 @@ section, header, main, footer {
 }
 header{
   background-color:rgb(252, 2, 210);
-  line-height: 2.5;
+  line-height: 4;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+main{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
 }
 .resin {
   background-color:rgb(195, 47, 170);
@@ -21,55 +26,65 @@ header{
 .picture1 {
   background-color:rgb(231, 112, 211);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 1/7;
 }
 .picture2 {
   background-color:rgb(186, 89, 186);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 7/13;
 }
 .picture3 {
   background-color:rgb(218, 61, 191);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 1/7;
 }
 .picture4 {
   background-color:rgb(219, 139, 206);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 7/13;
 }
 .picture5 {
   background-color:rgb(191, 78, 172);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 1/7;
 }
 .picture6 {
   background-color:rgb(213, 134, 176);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 7/13;
 }
 .picture7 {
   background-color:rgb(189, 68, 169);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 1/7;
 }
 .picture8 {
   background-color:rgb(129, 36, 114);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 7/13;
 }
 .picture9 {
   background-color:rgb(244, 145, 228);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 1/7;
 }
 .picture10 {
   background-color:rgb(252, 71, 222);
   padding: 1rem;
-  line-height:10;
+  line-height:25;
+  grid-column: 7/13;
 }
 footer {
    background-color:rgb(207, 132, 194);
   padding: 1rem;
-  line-height:2.5;
+  line-height:4;
 }

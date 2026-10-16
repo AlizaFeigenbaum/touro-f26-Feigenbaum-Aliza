@@ -22,7 +22,6 @@ header{
   line-height: 4;
   padding: 1rem;
   margin-bottom: 1rem;
-  grid-column: 1/13;
 }
 main{
   display: grid;
@@ -82,5 +81,4 @@ footer {
     background-color:rgb(88, 102, 224);
   padding: 1rem;
   line-height:4;
-  grid-column: 1/13;
 }
