@@ -27,7 +27,7 @@ h1{
   line-height: 3;
   padding: 1rem;
   margin-bottom: 1rem;
-  grid-column: 1/13;
+  grid-column: 1/13; 
 }
 .item {
   background-color:rgb(157, 106, 187);
