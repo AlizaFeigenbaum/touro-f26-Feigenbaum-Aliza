@@ -12,7 +12,7 @@ header{
   background-color:rgb(168, 61, 230);
   line-height: 4;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; 
 }
 /* added flex, align and grid template rows to move the footer and button to the bottom of the page*/
 main{

@@ -28,7 +28,7 @@ main{
   grid-template-columns: repeat(12, 1fr);
   gap: 1rem;
 }
-div{
+div{ 
   background-color:rgb(128, 138, 213);
   padding: 1rem;
   line-height:70;
