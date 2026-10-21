@@ -67,3 +67,12 @@ footer {
   padding: 1rem;
   line-height:4;
 }
+
+@media (max-width: 1000px){
+  .picture1,
+  .picture2,
+  .picture3,
+  .picture4 {
+    grid-column: 1/13;
+  }
+}
