@@ -20,35 +20,45 @@ main{
 }
 /*used grid column to center different lines with different size boxes. centered each box and set of boxes on the page*/
 h1{
-  background-color: rgb(202, 105, 87);
   padding: 1rem;
-  line-height:30;
   grid-column: 2/12;
 }
+    h1 img {
+      width: 100%;
+      height: auto;
+    }
 .picture1 {
-  background-color: rgb(236, 138, 121);
   padding: 1rem;
-  line-height:10;
   grid-column: 3/5;
 }
+    .picture1 img {
+      width: 100%;
+      height: auto;
+    }
 .picture2 {
-  background-color: rgb(190, 62, 40);
   padding: 1rem;
-  line-height:10;
   grid-column: 5/7;
 }
+    .picture2 img {
+      width: 100%;
+      height: auto;
+    }
 .picture3 {
-  background-color: rgb(241, 155, 140);
   padding: 1rem;
-  line-height:10;
   grid-column: 7/9;
 }
+    .picture3 img {
+      width: 100%;
+      height: auto;
+    }
 .picture4 {
-  background-color: rgb(156, 61, 61);
   padding: 1rem;
-  line-height:10;
   grid-column: 9/11;
 }
+    .picture4 img {
+      width: 100%;
+      height: auto;
+    }
 .information {
   background-color: rgb(169, 45, 45);
   padding: 1rem;
