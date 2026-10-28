@@ -29,11 +29,13 @@ main{
   gap: 1rem;
 }
 div{ 
-  background-color:rgb(128, 138, 213);
   padding: 1rem;
-  line-height:70;
   grid-column: 1/13;
 }
+    div img {
+      width: 100%;
+      height: auto;
+    }
 h1 {
   background-color:rgb(51, 61, 143);
   padding: 1rem;
@@ -42,42 +44,53 @@ h1 {
 }
 /*used grid-column to line up the place where pictures will go into rows of 2. Did 1/7 and 7/13 to center it on the page.*/
 .resin {
-  background-color:rgb(97, 110, 226);
   padding: 1rem;
-  line-height:25;
-  width: 100%;
   grid-column: 1/7;
+}
+    .resin img {
+      width: 100%;
+      height: auto;
 }
 .drawings {
-   background-color:rgb(145, 155, 241);
   padding: 1rem;
-  line-height:25;
   grid-column: 7/13;
 }
+    .drawings img {
+      width: 100%;
+      height: auto;
+    }
 .paintings {
-  background-color:rgb(56, 65, 147);
   padding: 1rem;
-  line-height:25;
   grid-column: 1/7;
 }
+    .paintings img {
+      width: 100%;
+      height: auto;
+    }
 .earrings {
-  background-color:rgb(127, 139, 242);
   padding: 1rem;
-  line-height:25;
   grid-column: 7/13;
 }
+    .earrings img {
+      width: 100%;
+      height: auto;
+    }
 .keychains {
-  background-color:rgb(40, 57, 203);
   padding: 1rem;
-  line-height:25;
   grid-column: 1/7
 }
+    .keychains img {
+      width: 100%;
+      height: auto;
+    }
 .gifts {
-    background-color:rgb(12, 31, 206);
   padding: 1rem;
-  line-height:25;
   grid-column: 7/13;
 }
+    .gifts img {
+      width: 100%;
+      height: auto;
+    }
 footer {
     background-color:rgb(88, 102, 224);
   padding: 1rem;
