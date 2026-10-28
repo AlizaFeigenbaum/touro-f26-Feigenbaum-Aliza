@@ -30,12 +30,14 @@ h1{
   grid-column: 1/13; 
 }
 .item {
-  background-color:rgb(157, 106, 187);
-  line-height: 10;
   padding: 1rem;
   margin-bottom: 1rem;
   grid-column: 3/6;
 }
+    .item img {
+       width: 100%;
+      height: auto;
+    }
 .info {
   background-color:rgb(99, 59, 122);
   line-height: 10;
