@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(79, 3, 66);
+  background-color:rgb(252, 252, 252);
   font-family:Arial, Helvetica, sans-serif;
   padding: 1rem;
 } 
@@ -8,7 +8,7 @@ section, header, main, footer {
   margin-bottom: 0.5rem;
 }
 header{
-  background-color:rgb(252, 2, 210);
+  background-color:rgb(54, 54, 54);
   padding: 0.5 rem 1rem;
   margin-bottom: 1rem;
   display: flex;
@@ -25,7 +25,7 @@ main{
   gap: 1rem;
 }
 .resin {
-  background-color:rgb(195, 47, 170);
+  background-color:rgb(54, 54, 54);
   padding: 1rem;
   line-height:5;
 }
@@ -110,7 +110,7 @@ main{
       height: auto;
     }
 footer {
-   background-color:rgb(207, 132, 194);
+  background-color:rgb(54, 54, 54);
   padding: 1rem;
   line-height:4;
 }

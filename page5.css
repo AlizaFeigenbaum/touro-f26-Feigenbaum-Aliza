@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(47, 3, 87);
+  background-color:rgb(254, 253, 254);
   font-family:Arial, Helvetica, sans-serif;
   padding: 1rem;
   margin: 0;
@@ -9,7 +9,7 @@ body{
   flex-direction: column;
 }
 header{
-  background-color:rgb(168, 61, 230);
+  background-color:rgb(54, 54, 54);
   padding: 0.5 rem 1rem;
   margin-bottom: 1rem;
   display: flex;
@@ -29,7 +29,7 @@ main{
   align-items: start;
 }
 h1{
-   background-color:rgb(112, 37, 155);
+  background-color: rgb(191, 191, 191);
   line-height: 3;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -45,21 +45,22 @@ h1{
       height: auto;
     }
 .info {
-  background-color:rgb(99, 59, 122);
+  background-color: rgb(191, 191, 191);
   line-height: 10;
   padding: 1rem;
   margin-bottom: 1rem;
   grid-column: 6/11;
 }
 button {
-  background-color:rgb(115, 21, 169);
+  background-color: rgb(191, 191, 191);
   line-height: 15;
   padding: 1rem;
   margin-bottom: 1rem;
   width: 100%;
   grid-column: 3/11;
 }
-footer {background-color:rgb(135, 11, 173);
+footer {
+  background-color:rgb(54, 54, 54);
   padding: 1rem;
   line-height:4;
 }

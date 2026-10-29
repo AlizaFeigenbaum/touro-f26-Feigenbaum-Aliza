@@ -9,7 +9,7 @@
 
 /* START BELOW */
 body{
-  background-color:rgb(1, 1, 51);
+  background-color:rgb(254, 254, 254);
   font-family:Arial, Helvetica, sans-serif;
   padding: 1rem;
 }
@@ -18,7 +18,7 @@ section, header, main, footer {
   margin-bottom: 0.5rem;
 }
 header{
-  background-color:rgb(0, 26, 255);
+  background-color:rgb(54, 54, 54);
   padding: 0.5 rem 1rem;
   margin-bottom: 1rem;
   display: flex;
@@ -43,7 +43,7 @@ div{
       height: auto;
     }
 h1 {
-  background-color:rgb(51, 61, 143);
+  background-color:rgb(54, 54, 54);
   padding: 1rem;
   line-height:5;
   grid-column: 1/13
@@ -98,7 +98,7 @@ h1 {
       height: auto;
     }
 footer {
-    background-color:rgb(88, 102, 224);
+ background-color:rgb(54, 54, 54);
   padding: 1rem;
   line-height:4;
 }
