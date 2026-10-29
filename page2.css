@@ -27,7 +27,7 @@ main{
 .resin {
   background-color:rgb(54, 54, 54);
   padding: 1rem;
-  line-height:5;
+  font-size: 80px;
 }
 .picture1 {
   padding: 1rem;
@@ -112,7 +112,7 @@ main{
 footer {
   background-color:rgb(54, 54, 54);
   padding: 1rem;
-  line-height:4;
+  font-size: 80px;
 }
 
 @media (max-width: 930px){

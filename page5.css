@@ -30,7 +30,7 @@ main{
 }
 h1{
   background-color: rgb(191, 191, 191);
-  line-height: 3;
+  font-size: 80px;
   padding: 1rem;
   margin-bottom: 1rem;
   grid-column: 1/13; 
@@ -46,14 +46,14 @@ h1{
     }
 .info {
   background-color: rgb(191, 191, 191);
-  line-height: 10;
+  font-size: 80px;
   padding: 1rem;
   margin-bottom: 1rem;
   grid-column: 6/11;
 }
 button {
   background-color: rgb(191, 191, 191);
-  line-height: 15;
+  font-size: 80px;
   padding: 1rem;
   margin-bottom: 1rem;
   width: 100%;
@@ -62,7 +62,7 @@ button {
 footer {
   background-color:rgb(54, 54, 54);
   padding: 1rem;
-  line-height:4;
+  font-size: 80px;
 }
 
 @media (max-width: 930px){
