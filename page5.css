@@ -65,11 +65,16 @@ button {
   grid-column: 3/11;
 }
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
+   background-color:rgb(71, 70, 70);
+   padding: 1rem;
   font-size: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
+footer a{
+  color: white;
+}
 @media (max-width: 930px){
   .item,
   .info {

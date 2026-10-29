@@ -2,6 +2,9 @@ body{
   background-color:rgb(251, 252, 251);
   font-family:Arial, Helvetica, sans-serif;
   padding: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 header{
   background-color:rgb(71, 70, 70);
@@ -45,6 +48,15 @@ h1{
  text-align: center;
 }
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
-font-size: 80px;}
+   background-color:rgb(71, 70, 70);
+   padding: 1rem;
+  font-size: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  margin-top: auto;
+}
+footer a{
+  color: white;
+}

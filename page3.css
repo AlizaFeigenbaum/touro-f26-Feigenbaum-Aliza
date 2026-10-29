@@ -82,11 +82,17 @@ font-size: 80px;
     text-align: center;
 }
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
-font-size: 80px;
+   background-color:rgb(71, 70, 70);
+   padding: 1rem;
+  font-size: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
 }
-
+footer a{
+  color: white;
+}
 @media (max-width: 1000px){
   .picture1,
   .picture2,

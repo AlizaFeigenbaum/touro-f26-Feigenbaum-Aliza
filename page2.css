@@ -29,6 +29,7 @@ main{
   padding: 1rem;
   font-size: 80px;
     text-align: center;
+    color: white;
 }
 .picture1 {
   padding: 1rem;
@@ -111,11 +112,17 @@ main{
       height: auto;
     }
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
+   background-color:rgb(71, 70, 70);
+   padding: 1rem;
   font-size: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
 }
-
+footer a{
+  color: white;
+}
 @media (max-width: 930px){
   .picture1,
   .picture2,
