@@ -9,7 +9,7 @@ body{
   flex-direction: column;
 }
 header{
-  background-color:rgb(54, 54, 54);
+  background-color:rgb(71, 70, 70);
   padding: 0.5 rem 1rem;
   margin-bottom: 1rem;
   display: flex;
@@ -34,11 +34,15 @@ h1{
   padding: 1rem;
   margin-bottom: 1rem;
   grid-column: 1/13; 
+  text-align: center;
+
 }
 .item {
   padding: 1rem;
   margin-bottom: 1rem;
   grid-column: 3/6;
+ text-align: center;
+
 }
     .item img {
        width: 100%;
@@ -50,6 +54,7 @@ h1{
   padding: 1rem;
   margin-bottom: 1rem;
   grid-column: 6/11;
+  text-align: center;
 }
 button {
   background-color: rgb(191, 191, 191);
@@ -60,7 +65,7 @@ button {
   grid-column: 3/11;
 }
 footer {
-  background-color:rgb(54, 54, 54);
+  background-color:rgb(71, 70, 70);
   padding: 1rem;
   font-size: 80px;
 }

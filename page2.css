@@ -8,7 +8,7 @@ section, header, main, footer {
   margin-bottom: 0.5rem;
 }
 header{
-  background-color:rgb(54, 54, 54);
+  background-color:rgb(71, 70, 70);
   padding: 0.5 rem 1rem;
   margin-bottom: 1rem;
   display: flex;
@@ -25,9 +25,10 @@ main{
   gap: 1rem;
 }
 .resin {
-  background-color:rgb(54, 54, 54);
+  background-color:rgb(71, 70, 70);
   padding: 1rem;
   font-size: 80px;
+    text-align: center;
 }
 .picture1 {
   padding: 1rem;
@@ -110,7 +111,7 @@ main{
       height: auto;
     }
 footer {
-  background-color:rgb(54, 54, 54);
+  background-color:rgb(71, 70, 70);
   padding: 1rem;
   font-size: 80px;
 }

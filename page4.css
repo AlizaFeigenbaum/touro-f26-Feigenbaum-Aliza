@@ -4,7 +4,7 @@ body{
   padding: 1rem;
 }
 header{
-  background-color:rgb(54, 54, 54);
+  background-color:rgb(71, 70, 70);
   padding: 0.5 rem 1rem;
   margin-bottom: 1rem;
   display: flex;
@@ -26,6 +26,7 @@ h1{
   font-size: 80px;
   margin-bottom: 1rem;
   grid-column: 3/11;
+  text-align: center;
 }
 .cart {
   background-color: rgb(191, 191, 191);
@@ -33,15 +34,17 @@ h1{
   font-size: 80px;
   margin-bottom: 1rem;
   grid-column: 5/9;
+    text-align: center;
 }
 .shopping {
   background-color: rgb(191, 191, 191);
   padding: 1rem;
-font-size: 80px;
+  font-size: 80px;
   margin-bottom: 1rem;
   grid-column: 5/9;
+ text-align: center;
 }
 footer {
-  background-color: rgb(191, 191, 191);
+  background-color:rgb(71, 70, 70);
   padding: 1rem;
 font-size: 80px;}
