@@ -19,10 +19,16 @@ section, header, main, footer {
 }
 header{
   background-color:rgb(0, 26, 255);
-  line-height: 4;
-  padding: 1rem;
+  padding: 0.5 rem 1rem;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+    header img {
+      width: 270px;
+      height: auto;
+    }
 main{
   display: grid;
   grid-template-columns: repeat(12, 1fr);

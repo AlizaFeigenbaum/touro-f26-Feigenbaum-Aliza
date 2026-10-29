@@ -5,10 +5,16 @@ body{
 }
 header{
   background-color: rgb(13, 150, 97);
-  line-height: 4;
-  padding: 1rem;
+  padding: 0.5 rem 1rem;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+    header img {
+      width: 270px;
+      height: auto;
+    }
 main{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
