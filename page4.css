@@ -39,6 +39,9 @@ h1{
   grid-column: 5/9;
     text-align: center;
 }
+.cart a {
+  color: black;
+}
 .shopping {
   background-color: rgb(191, 191, 191);
   padding: 1rem;

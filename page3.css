@@ -81,6 +81,9 @@ h1{
   grid-column: 5/9;
   text-align: center;
 }
+.cart a {
+  color:black;
+}
 footer {
   background-color:rgb(71, 70, 70);
   padding: 1rem;
