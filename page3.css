@@ -76,14 +76,14 @@ h1{
 .cart {
   background-color: rgb(191, 191, 191);
   padding: 1rem;
-font-size: 80px;
+  font-size: 80px;
   width: 100%;
   grid-column: 5/9;
-    text-align: center;
+  text-align: center;
 }
 footer {
-   background-color:rgb(71, 70, 70);
-   padding: 1rem;
+  background-color:rgb(71, 70, 70);
+  padding: 1rem;
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;
