@@ -8,6 +8,10 @@
 }
 
 /* START BELOW */
+img {
+  width: 100%;
+  height: auto;
+}
 body{
   background-color:rgb(254, 254, 254);
   font-family:Arial, Helvetica, sans-serif;
@@ -56,55 +60,31 @@ h1 {
   grid-column: 1/7;
   font-size: 60px;
 }
-    .resin img {
-      width: 100%;
-      height: auto;
-}
 .drawings {
   padding: 1rem;
   grid-column: 7/13;
   font-size: 60px;
 }
-    .drawings img {
-      width: 100%;
-      height: auto;
-    }
 .paintings {
   padding: 1rem;
   grid-column: 1/7;
   font-size: 60px;
 }
-    .paintings img {
-      width: 100%;
-      height: auto;
-    }
 .earrings {
   padding: 1rem;
   grid-column: 7/13;
   font-size: 60px;
 }
-    .earrings img {
-      width: 100%;
-      height: auto;
-    }
 .keychains {
   padding: 1rem;
-  grid-column: 1/7
+  grid-column: 1/7;
   font-size: 60px;
 }
-    .keychains img {
-      width: 100%;
-      height: auto;
-    }
 .gifts {
   padding: 1rem;
   grid-column: 7/13;
   font-size: 60px;
 }
-    .gifts img {
-      width: 100%;
-      height: auto;
-    }
 footer {
    background-color:rgb(71, 70, 70);
    padding: 1rem;

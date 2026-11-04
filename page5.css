@@ -28,6 +28,10 @@ main{
   flex: 1;
   align-items: start;
 }
+img {
+  width: 100%;
+  height: auto;
+}
 h1{
   background-color: rgb(191, 191, 191);
   font-size: 80px;
@@ -44,10 +48,6 @@ h1{
  text-align: center;
 
 }
-    .item img {
-       width: 100%;
-      height: auto;
-    }
 .info {
   background-color: rgb(191, 191, 191);
   font-size: 80px;

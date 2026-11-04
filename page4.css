@@ -37,7 +37,7 @@ h1{
   font-size: 80px;
   margin-bottom: 1rem;
   grid-column: 5/9;
-    text-align: center;
+  text-align: center;
 }
 .cart a {
   color: black;
@@ -48,7 +48,7 @@ h1{
   font-size: 80px;
   margin-bottom: 1rem;
   grid-column: 5/9;
- text-align: center;
+  text-align: center;
 }
 footer {
    background-color:rgb(71, 70, 70);
