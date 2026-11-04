@@ -34,21 +34,20 @@ h1{
   padding: 1rem;
   grid-column: 2/12;
 }
-.picture1 {
-  padding: 1rem;
-  grid-column: 3/5;
+/*Used flex to get the pictures to line up evenly spaced on one line*/
+.gallery {
+  Display: flex;
+  justify-content: space-evenly;
+  grid-column: 2/12;
 }
-.picture2 {
+
+.picture1 img, .picture2 img, .picture3 img, .picture4 img {
+  width: auto;
+  height: 700px;
+  object-fit: contain;
+  Display: flex;
+  justify-content: space-evenly;
   padding: 1rem;
-  grid-column: 5/7;
-}
-.picture3 {
-  padding: 1rem;
-  grid-column: 7/9;
-}
-.picture4 {
-  padding: 1rem;
-  grid-column: 9/11;
 }
 .information {
   background-color: rgb(191, 191, 191);

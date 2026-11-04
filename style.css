@@ -10,7 +10,8 @@
 /* START BELOW */
 img {
   width: 100%;
-  height: auto;
+  height: 2000px;
+  object-fit: contain;
 }
 body{
   background-color:rgb(254, 254, 254);
@@ -85,6 +86,9 @@ h1 {
   padding: 1rem;
   grid-column: 7/13;
   font-size: 60px;
+}
+section h2 {
+  text-align: center;
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {

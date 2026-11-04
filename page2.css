@@ -27,7 +27,8 @@ main{
 }
 img {
   width: 100%;
-  height: auto;
+  height: 2000px;
+  object-fit: contain;
 }
 .resin {
   background-color:rgb(71, 70, 70);
