@@ -24,3 +24,5 @@ Page 3
 |Main|4 pictures|1|Grid|Its working now - its one line with 4 pictures on it|
 |---|---|---|---|
 |Footer| 3 text|1|Flex| to space it evenly on 1 line|
+
+One decision I rethought is I swiched from grid to flexbox on my thrid page for the section of 4 pictures lined up in a row. Grid was not giving me even spacing and flexbox fixed it.
