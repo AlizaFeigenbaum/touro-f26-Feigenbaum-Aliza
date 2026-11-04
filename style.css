@@ -54,6 +54,7 @@ h1 {
 .resin {
   padding: 1rem;
   grid-column: 1/7;
+  font-size: 60px;
 }
     .resin img {
       width: 100%;
@@ -62,6 +63,7 @@ h1 {
 .drawings {
   padding: 1rem;
   grid-column: 7/13;
+  font-size: 60px;
 }
     .drawings img {
       width: 100%;
@@ -70,6 +72,7 @@ h1 {
 .paintings {
   padding: 1rem;
   grid-column: 1/7;
+  font-size: 60px;
 }
     .paintings img {
       width: 100%;
@@ -78,6 +81,7 @@ h1 {
 .earrings {
   padding: 1rem;
   grid-column: 7/13;
+  font-size: 60px;
 }
     .earrings img {
       width: 100%;
@@ -86,6 +90,7 @@ h1 {
 .keychains {
   padding: 1rem;
   grid-column: 1/7
+  font-size: 60px;
 }
     .keychains img {
       width: 100%;
@@ -94,6 +99,7 @@ h1 {
 .gifts {
   padding: 1rem;
   grid-column: 7/13;
+  font-size: 60px;
 }
     .gifts img {
       width: 100%;
