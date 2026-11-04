@@ -47,7 +47,7 @@ div{
       height: auto;
     }
 h1 {
-    background-color:rgb(71, 70, 70);
+  background-color:rgb(71, 70, 70);
   padding: 3rem;
   grid-column: 1/13;
   font-size: 80px;
@@ -86,8 +86,8 @@ h1 {
   font-size: 60px;
 }
 footer {
-   background-color:rgb(71, 70, 70);
-   padding: 1rem;
+  background-color:rgb(71, 70, 70);
+  padding: 1rem;
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;
@@ -104,6 +104,6 @@ footer a{
   .earrings,
   .keychains,
   .gifts {
-    grid-column: 1/13;
+  grid-column: 1/13;
   }
 }

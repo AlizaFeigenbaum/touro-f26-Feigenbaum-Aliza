@@ -45,7 +45,7 @@ h1{
   padding: 1rem;
   margin-bottom: 1rem;
   grid-column: 3/6;
- text-align: center;
+  text-align: center;
 
 }
 .info {
@@ -65,8 +65,8 @@ button {
   grid-column: 3/11;
 }
 footer {
-   background-color:rgb(71, 70, 70);
-   padding: 1rem;
+  background-color:rgb(71, 70, 70);
+  padding: 1rem;
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;

@@ -85,6 +85,6 @@ footer a{
   .picture2,
   .picture3,
   .picture4 {
-    grid-column: 1/13;
+  grid-column: 1/13;
   }
 }  

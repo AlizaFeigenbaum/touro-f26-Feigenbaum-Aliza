@@ -32,8 +32,8 @@ img {
   background-color:rgb(71, 70, 70);
   padding: 1rem;
   font-size: 80px;
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 .picture1 {
   padding: 1rem;
@@ -76,8 +76,8 @@ img {
   grid-column: 7/13;
 }
 footer {
-   background-color:rgb(71, 70, 70);
-   padding: 1rem;
+  background-color:rgb(71, 70, 70);
+  padding: 1rem;
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;

@@ -51,8 +51,8 @@ h1{
   text-align: center;
 }
 footer {
-   background-color:rgb(71, 70, 70);
-   padding: 1rem;
+  background-color:rgb(71, 70, 70);
+  padding: 1rem;
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;
