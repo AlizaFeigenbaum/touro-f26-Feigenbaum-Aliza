@@ -103,13 +103,19 @@ footer {
 footer a{
   color: white;
 }
-@media (max-width: 930px){
+@media (max-width: 1600px){
   .resin,
   .drawings,
   .paintings,
   .earrings,
   .keychains,
-  .gifts {
+  .gifts,
+  .resin img,
+  .drawings img,
+  .paintings img,
+  .earrings img,
+  .keychains img,
+  .gifts img {
   grid-column: 1/13;
   }
 }
