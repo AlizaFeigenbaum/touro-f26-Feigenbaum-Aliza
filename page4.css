@@ -6,6 +6,7 @@ body{
   display: flex;
   flex-direction: column;
 }
+/* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
   background-color:rgb(71, 70, 70);
   padding: 0.5 rem 1rem;
@@ -50,6 +51,7 @@ h1{
   grid-column: 5/9;
   text-align: center;
 }
+/* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
   background-color:rgb(71, 70, 70);
   padding: 1rem;

@@ -7,6 +7,7 @@ section, header, main, footer {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+/* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
   background-color:rgb(71, 70, 70);
   padding: 0.5 rem 1rem;
@@ -68,6 +69,7 @@ h1{
 .cart a {
   color:black;
 }
+/* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
   background-color:rgb(71, 70, 70);
   padding: 1rem;
