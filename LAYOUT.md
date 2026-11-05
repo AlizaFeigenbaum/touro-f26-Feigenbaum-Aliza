@@ -25,4 +25,22 @@ Page 3
 |---|---|---|---|
 |Footer| 3 text|1|Flex| to space it evenly on 1 line|
 
+Page 4
+|Where|Whats being lined up|1 direction or 2|Grid or Flex|Why|
+|---|---|---|---|
+|Header|2 pictures|1|Flex|to line it up evenly spaced on 1 line|
+|---|---|---|---|
+|Main|3 text boxes|1|Grid|Its working now - there are 3 boxes stacked on top of each other|
+|---|---|---|---|
+|Footer| 3 text|1|Flex| to space it evenly on 1 line|
+
+Page 5
+|Where|Whats being lined up|1 direction or 2|Grid or Flex|Why|
+|---|---|---|---|
+|Header|2 pictures|1|Flex|to line it up evenly spaced on 1 line|
+|---|---|---|---|
+|Main|1 picture and 1 text box|1|Grid and flex|Using grid to center it on the page and flex to make the text centered|
+|---|---|---|---|
+|Footer| 3 text|1|Flex| to space it evenly on 1 line|
+
 One decision I rethought is I swiched from grid to flexbox on my thrid page for the section of 4 pictures lined up in a row. Grid was not giving me even spacing and flexbox fixed it.
