@@ -22,12 +22,13 @@ header{
       height: auto;
     }
 /* added flex, align and grid template rows to move the footer and button to the bottom of the page*/
-main{
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 1rem;
-  flex: 1;
-  align-items: start;
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    flex: 1;
+    align-items: stretch;
+    align-content: space-between;
 }
 img {
   width: 100%;
@@ -43,19 +44,22 @@ h1{
 
 }
 .item {
-  padding: 1rem;
-  margin-bottom: 1rem;
   grid-column: 3/6;
   text-align: center;
-
+}
+.item h2 {
+  margin: 0;
 }
 .info {
   background-color: rgb(191, 191, 191);
+  padding: 0;
+  margin: 0;
   font-size: 80px;
-  padding: 1rem;
-  margin-bottom: 1rem;
   grid-column: 6/11;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 button {
   background-color: rgb(191, 191, 191);
@@ -78,9 +82,12 @@ footer {
 footer a{
   color: white;
 }
-@media (max-width: 930px){
+@media (max-width: 1400px){
   .item,
   .info {
     grid-column: 1/13;
+  }
+  .info {
+    font-size: 40px;
   }
 }

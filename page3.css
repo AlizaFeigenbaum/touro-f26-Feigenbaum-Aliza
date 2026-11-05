@@ -81,11 +81,29 @@ footer {
 footer a{
   color: white;
 }
-@media (max-width: 1000px){
-  .picture1,
-  .picture2,
-  .picture3,
-  .picture4 {
-  grid-column: 1/13;
-  }
-}  
+/*Used flexbox to make the 4 pictures in a row go from 4-2-1 as the page got smaller*/
+@media (max-width: 3816px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+
+    .gallery section {
+        flex: 0 0 calc(50% - 10px);
+        box-sizing: border-box;
+    }
+
+    .gallery img {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1600px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery section {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
