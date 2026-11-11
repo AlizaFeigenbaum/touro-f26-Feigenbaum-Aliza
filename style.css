@@ -25,7 +25,7 @@ section, header, main, footer {
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
   background-color:rgb(71, 70, 70);
-  padding: 0.5 rem 1rem;
+  padding: 0.5 1rem;
   margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
