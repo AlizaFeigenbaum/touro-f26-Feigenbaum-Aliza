@@ -43,6 +43,7 @@ h1{
 }
 .cart a {
   color: black;
+  text-decoration: none;
 }
 .shopping {
   background-color: rgb(191, 191, 191);
@@ -65,6 +66,7 @@ footer {
 }
 footer a{
   color: white;
+  text-decoration: none;
 }
 @media (max-width: 1860px) {
   .shopping, .cart {
