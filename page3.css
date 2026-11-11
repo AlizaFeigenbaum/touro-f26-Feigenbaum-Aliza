@@ -2,6 +2,7 @@
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
   --color-background:rgb(254, 254, 254);
+   --color-text: rgb(0,0,0);
 
   --space-s: 0.5rem;
   --space-m: 1rem;
@@ -11,19 +12,20 @@
   --font: "Arial", Helvetica, sans-serif;
 }
 body{
-  background-color: var(--color-background);;
+  background-color: var(--color-background);
   font-family:var(--font);
-  padding: 1rem;
+  padding: var(--space-m);
+  color: var(--color-text);
 }
 section, header, main, footer {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: var(--space-s);
+  margin-bottom: var(--space-s);
 }
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
-  background-color:rgb(71, 70, 70);
-  padding: 0.5 1rem;
-  margin-bottom: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-s) var(--space-m);
+  margin-bottom: var(--space-m);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +37,7 @@ header{
 main{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 1rem;
+  gap: var(--space-m);
 }
 img {
   width: 100%;
@@ -43,7 +45,7 @@ img {
 }
 /*used grid column to center different lines with different size boxes. centered each box and set of boxes on the page*/
 h1{
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 2/12;
 }
 /*Used flex to get the pictures to line up evenly spaced on one line*/
@@ -59,32 +61,32 @@ h1{
   object-fit: contain;
   Display: flex;
   justify-content: space-evenly;
-  padding: 1rem;
+  padding:var(--space-m);
 }
 .information {
-  background-color: rgb(191, 191, 191);
-  padding: 1rem;
+  background-color:var(--color-textbox);
+  padding: var(--space-m);
   font-size: 80px;
   grid-column: 2/12;
   text-align: center;
 
 }
 .cart {
-  background-color: rgb(191, 191, 191);
-  padding: 1rem;
+  background-color:var(--color-textbox);
+  padding: var(--space-m);
   font-size: 80px;
   width: 100%;
   grid-column: 5/9;
   text-align: center;
 }
 .cart a {
-  color:black;
+  color:var(--color-text);
   text-decoration: none;
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-m);
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;

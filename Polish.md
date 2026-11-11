@@ -18,6 +18,7 @@
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
   --color-background:rgb(254, 254, 254);
+  --color-text: rgb(0,0,0);
 
   --space-s: 0.5rem;
   --space-m: 1rem;

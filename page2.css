@@ -2,6 +2,7 @@
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
   --color-background:rgb(254, 254, 254);
+   --color-text: rgb(0,0,0);
 
   --space-s: 0.5rem;
   --space-m: 1rem;
@@ -13,17 +14,18 @@
 body{
   background-color:var(--color-background);
   font-family:var(--font);
-  padding: 1rem;
+  padding: var(--space-m);
+  color: var(--color-text);
 } 
 section, header, main, footer {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: var(--space-s);
+  margin-bottom:var(--space-s);
 }
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
-  background-color:rgb(71, 70, 70);
-  padding: 0.5 1rem;
-  margin-bottom: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-s) var(--space-m);
+  margin-bottom: var(--space-m);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +37,7 @@ header{
 main{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 1rem;
+  gap: var(--space-m);
 }
 img {
   width: 100%;
@@ -43,64 +45,64 @@ img {
   object-fit: contain;
 }
 .resin {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-m);
   font-size: 80px;
   text-align: center;
-  color: var(--color-background);;
+  color: var(--color-background);
 }
 .picture1 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/7;
 }
 .picture2 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 7/13;
 }
 .picture3 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/7;
 }
 .picture4 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 7/13;
 }
 .picture5 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/7;
 }
 .picture6 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 7/13;
 }
 .picture7 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/7;
 }
 .picture8 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 7/13;
 }
 .picture9 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/7;
 }
 .picture10 {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 7/13;
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-m);
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: var(--color-background);;
+  color: var(--color-background);
 }
 footer a{
-  color: var(--color-background);;
+  color: var(--color-background);
   text-decoration: none;
 }
 @media (max-width: 1900px){

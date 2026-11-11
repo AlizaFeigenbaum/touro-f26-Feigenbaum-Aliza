@@ -2,6 +2,7 @@
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
   --color-background:rgb(254, 254, 254);
+   --color-text: rgb(0,0,0);
 
   --space-s: 0.5rem;
   --space-m: 1rem;
@@ -13,16 +14,17 @@
 body{
   background-color:var(--color-background);
   font-family:var(--font);
-  padding: 1rem;
+  color: var(--color-text);
+  padding: var(--space-m);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
-  background-color:rgb(71, 70, 70);
-  padding: 0.5 1rem;
-  margin-bottom: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-s) var(--space-m);
+  margin-bottom: var(--space-m);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,41 +36,41 @@ header{
 main{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 1rem;
+  gap: var(--space-m);
   margin-top: 10rem;
 }
 h1{
-  background-color: rgb(191, 191, 191);
+  background-color:var(--color-textbox);
   padding: 7rem;
   font-size: 132px;
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-m);
   grid-column: 3/11;
   text-align: center;
 }
 .cart {
-  background-color: rgb(191, 191, 191);
-  padding: 1rem;
+  background-color:var(--color-textbox);
+  padding: var(--space-m);
   font-size: 80px;
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-m);
   grid-column: 5/9;
   text-align: center;
 }
 .cart a {
-  color: black;
+  color: var(--color-text);
   text-decoration: none;
 }
 .shopping {
-  background-color: rgb(191, 191, 191);
-  padding: 1rem;
+  background-color:var(--color-textbox);
+  padding: var(--space-m);
   font-size: 80px;
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-m);
   grid-column: 5/9;
   text-align: center;
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
+  background-color:var(--color-primary);
+  padding:var(--space-m);
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;

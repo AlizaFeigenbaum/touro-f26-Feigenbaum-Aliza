@@ -2,6 +2,7 @@
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
   --color-background:rgb(254, 254, 254);
+   --color-text: rgb(0,0,0);
 
   --space-s: 0.5rem;
   --space-m: 1rem;
@@ -13,7 +14,8 @@
 body{
   background-color:var(--color-background);
   font-family:var(--font);
-  padding: 1rem;
+  color: var(--color-text);
+  padding: var(--space-m);
   margin: 0;
   min-height: 100vh;
   box-sizing: border-box;
@@ -22,9 +24,9 @@ body{
 }
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
-  background-color:rgb(71, 70, 70);
-  padding: 0.5 1rem;
-  margin-bottom: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-s) var(--space-m);
+  margin-bottom: var(--space-m);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +39,7 @@ header{
 main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 1rem;
+    gap: var(--space-m);
     flex: 1;
     align-items: stretch;
     align-content: space-between;
@@ -47,10 +49,10 @@ img {
   height: auto;
 }
 h1{
-  background-color: rgb(191, 191, 191);
+  background-color: var(--color-textbox);
   font-size: 80px;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: var(--space-m);
+  margin-bottom: var(--space-m);
   grid-column: 1/13; 
   text-align: center;
 
@@ -63,7 +65,7 @@ h1{
   margin: 0;
 }
 .info {
-  background-color: rgb(191, 191, 191);
+  background-color:var(--color-textbox);
   padding: 0;
   margin: 0;
   font-size: 80px;
@@ -74,17 +76,17 @@ h1{
   align-items: center;
 }
 button {
-  background-color: rgb(191, 191, 191);
+  background-color:var(--color-textbox);
   font-size: 80px;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: var(--space-m);
+  margin-bottom:var(--space-m);
   width: 100%;
   grid-column: 3/11;
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-m);
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;

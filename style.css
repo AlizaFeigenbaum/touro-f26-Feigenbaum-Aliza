@@ -13,10 +13,11 @@
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
   --color-background:rgb(254, 254, 254);
+  --color-text: rgb(0,0,0); 
 
-  --space-s: 0.5rem;
-  --space-m: 1rem; 
-  --space-l: 3.75rem;
+  --space-s: 0.5rem; 
+  --space-m: 1rem;  
+  --space-l: 3.75rem; 
   --space-xl: 5rem;
 
   --font: "Arial", Helvetica, sans-serif;
@@ -27,19 +28,20 @@ img {
   object-fit: contain;
 }
 body{
-  background-color:var(--color-background);;
+  background-color:var(--color-background);
   font-family:var(--font);
-  padding: 1rem;
+  padding: var(--space-m);
+  color: var(--color-text);
 }
 section, header, main, footer {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: var(--space-s);
+  margin-bottom: var(--space-s);
 }
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
-  background-color:rgb(71, 70, 70);
-  padding: 0.5 1rem;
-  margin-bottom: 1rem;
+  background-color:var(--color-primary);
+  padding: var(--space-s) var(--space-m);
+  margin-bottom: var(--space-m);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,10 +53,10 @@ header{
 main{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 1rem;
+  gap: var(--space-m);
 }
 div{ 
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/13;
 }
     div img {
@@ -62,41 +64,41 @@ div{
       height: auto;
     }
 h1 {
-  background-color:rgb(71, 70, 70);
+  background-color:var(--color-primary);
   padding: 3rem;
   grid-column: 1/13;
   font-size: 80px;
   text-align: center;
-  color: var(--color-background);;
+  color: var(--color-background);
 }
 /*used grid-column to line up the place where pictures will go into rows of 2. Did 1/7 and 7/13 to center it on the page.*/
 .resin {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/7;
   font-size: 60px;
 }
 .drawings {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 7/13;
   font-size: 60px;
 }
 .paintings {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/7;
   font-size: 60px;
 }
 .earrings {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 7/13;
   font-size: 60px;
 }
 .keychains {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 1/7;
   font-size: 60px;
 }
 .gifts {
-  padding: 1rem;
+  padding: var(--space-m);
   grid-column: 7/13;
   font-size: 60px;
 }
@@ -105,16 +107,16 @@ section h2 {
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
-  background-color:rgb(71, 70, 70);
-  padding: 1rem;
+  background-color:var(--color-primary);
+  padding:var(--space-m);
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: var(--color-background);;
+  color: var(--color-background);
 }
 footer a{
-  color: var(--color-background);;
+  color: var(--color-background);
   text-decoration: none;
 }
 @media (max-width: 1600px){
