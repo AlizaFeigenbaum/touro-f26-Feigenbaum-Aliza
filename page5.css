@@ -1,6 +1,18 @@
+:root {
+  --color-primary: rgb(71, 70, 70);
+  --color-textbox: rgb(191, 191, 191);
+  --color-background:rgb(254, 254, 254);
+
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 3.75rem;
+  --space-xl: 5rem;
+
+  --font: "Arial", Helvetica, sans-serif;
+}
 body{
-  background-color:rgb(254, 253, 254);
-  font-family:Arial, Helvetica, sans-serif;
+  background-color:var(--color-background);
+  font-family:var(--font);
   padding: 1rem;
   margin: 0;
   min-height: 100vh;
@@ -11,7 +23,7 @@ body{
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
   background-color:rgb(71, 70, 70);
-  padding: 0.5 rem 1rem;
+  padding: 0.5 1rem;
   margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
@@ -77,10 +89,10 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: white;
+  color: var(--color-background);
 }
 footer a{
-  color: white;
+  color: var(--color-background);
   text-decoration: none;
 }
 @media (max-width: 1400px){
