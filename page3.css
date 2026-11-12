@@ -98,11 +98,24 @@ footer a{
         flex-wrap: wrap;
     }
     .gallery section {
-        flex: 0 0 calc(50% - 10px);
-        box-sizing: border-box;
+      display: flex;  
+      flex: 0 0 calc(50% - 10px);
+      box-sizing: border-box;
+      justify-content: center;
     }
-    .gallery img {
-        max-width: 100%;
+    .gallery section h2 {
+        width: 100%;
+        min-width: 0;
+    }
+    .gallery section h2 img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+      width: auto;
+      height: min(700px, 30vw);
+      max-width: 100%;
+      object-fit: contain;
     }
 }
 @media (max-width: 1600px) {
@@ -113,5 +126,8 @@ footer a{
     .gallery section {
         flex: 0 0 auto;
         width: 100%;
+    }
+    .gallery section h2 img {
+      height: min(700px, 65vh);
     }
 }
