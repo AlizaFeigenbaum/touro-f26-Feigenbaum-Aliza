@@ -1,26 +1,21 @@
 :root {
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
-  --color-background:rgb(254, 254, 254);
+  --color-background: rgb(254, 254, 254);
    --color-text: rgb(0,0,0);
 
   --space-s: 0.5rem;
   --space-m: 1rem;
-  --space-l: 3.75rem;
-  --space-xl: 5rem;
+  --space-l: 3rem;
 
   --font: "Arial", Helvetica, sans-serif;
 }
 body{
-  background-color:var(--color-background);
-  font-family:var(--font);
+  background-color: var(--color-background);
+  font-family: var(--font);
   padding: var(--space-m);
   color: var(--color-text);
 } 
-section, header, main, footer {
-  margin-top: var(--space-s);
-  margin-bottom:var(--space-s);
-}
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
   background-color:var(--color-primary);
@@ -45,11 +40,11 @@ img {
   object-fit: contain;
 }
 .resin {
-  background-color:var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-background);
   padding: var(--space-m);
   font-size: 80px;
   text-align: center;
-  color: var(--color-background);
 }
 .picture1 {
   padding: var(--space-m);
@@ -93,13 +88,13 @@ img {
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
-  background-color:var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-background);
   padding: var(--space-m);
   font-size: 80px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: var(--color-background);
 }
 footer a{
   color: var(--color-background);

@@ -1,29 +1,24 @@
 :root {
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
-  --color-background:rgb(254, 254, 254);
+  --color-background: rgb(254, 254, 254);
    --color-text: rgb(0,0,0);
 
   --space-s: 0.5rem;
   --space-m: 1rem;
-  --space-l: 3.75rem;
-  --space-xl: 5rem;
+  --space-l: 3rem;
 
   --font: "Arial", Helvetica, sans-serif;
 }
 body{
   background-color: var(--color-background);
-  font-family:var(--font);
+  font-family: var(--font);
   padding: var(--space-m);
   color: var(--color-text);
 }
-section, header, main, footer {
-  margin-top: var(--space-s);
-  margin-bottom: var(--space-s);
-}
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
-  background-color:var(--color-primary);
+  background-color: var(--color-primary);
   padding: var(--space-s) var(--space-m);
   margin-bottom: var(--space-m);
   display: flex;
@@ -61,10 +56,10 @@ h1{
   object-fit: contain;
   Display: flex;
   justify-content: space-evenly;
-  padding:var(--space-m);
+  padding: var(--space-m);
 }
 .information {
-  background-color:var(--color-textbox);
+  background-color: var(--color-textbox);
   padding: var(--space-m);
   font-size: 80px;
   grid-column: 2/12;
@@ -72,7 +67,7 @@ h1{
 
 }
 .cart {
-  background-color:var(--color-textbox);
+  background-color: var(--color-textbox);
   padding: var(--space-m);
   font-size: 80px;
   width: 100%;
@@ -80,12 +75,12 @@ h1{
   text-align: center;
 }
 .cart a {
-  color:var(--color-text);
+  color: var(--color-text);
   text-decoration: none;
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
-  background-color:var(--color-primary);
+  background-color: var(--color-primary);
   padding: var(--space-m);
   font-size: 80px;
   display: flex;
@@ -94,7 +89,7 @@ footer {
   color: var(--color-background);
 }
 footer a{
-  color:var(--color-background);
+  color: var(--color-background);
   text-decoration: none;
 }
 /*Used flexbox to make the 4 pictures in a row go from 4-2-1 as the page got smaller*/
@@ -102,12 +97,10 @@ footer a{
     .gallery {
         flex-wrap: wrap;
     }
-
     .gallery section {
         flex: 0 0 calc(50% - 10px);
         box-sizing: border-box;
     }
-
     .gallery img {
         max-width: 100%;
     }
@@ -117,7 +110,6 @@ footer a{
         flex-direction: column;
         align-items: center;
     }
-
     .gallery section {
         flex: 0 0 auto;
         width: 100%;

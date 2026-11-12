@@ -1,19 +1,18 @@
 :root {
   --color-primary: rgb(71, 70, 70);
   --color-textbox: rgb(191, 191, 191);
-  --color-background:rgb(254, 254, 254);
+  --color-background: rgb(254, 254, 254);
    --color-text: rgb(0,0,0);
 
   --space-s: 0.5rem;
   --space-m: 1rem;
-  --space-l: 3.75rem;
-  --space-xl: 5rem;
+  --space-l: 3rem;
 
   --font: "Arial", Helvetica, sans-serif;
 }
 body{
-  background-color:var(--color-background);
-  font-family:var(--font);
+  background-color: var(--color-background);
+  font-family: var(--font);
   color: var(--color-text);
   padding: var(--space-m);
   margin: 0;
@@ -24,7 +23,7 @@ body{
 }
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
 header{
-  background-color:var(--color-primary);
+  background-color: var(--color-primary);
   padding: var(--space-s) var(--space-m);
   margin-bottom: var(--space-m);
   display: flex;
@@ -65,7 +64,7 @@ h1{
   margin: 0;
 }
 .info {
-  background-color:var(--color-textbox);
+  background-color: var(--color-textbox);
   padding: 0;
   margin: 0;
   font-size: 80px;
@@ -76,16 +75,16 @@ h1{
   align-items: center;
 }
 button {
-  background-color:var(--color-textbox);
+  background-color: var(--color-textbox);
   font-size: 80px;
   padding: var(--space-m);
-  margin-bottom:var(--space-m);
+  margin-bottom: var(--space-m);
   width: 100%;
   grid-column: 3/11;
 }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
-  background-color:var(--color-primary);
+  background-color: var(--color-primary);
   padding: var(--space-m);
   font-size: 80px;
   display: flex;
