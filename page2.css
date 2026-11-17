@@ -20,7 +20,7 @@ body{
 header{
   background-color:var(--color-primary);
   padding: var(--space-s) var(--space-m);
-  margin-bottom: 4px;
+  margin-bottom: var(--space-m);
   display: flex;
   justify-content: space-between;
   align-items: center;

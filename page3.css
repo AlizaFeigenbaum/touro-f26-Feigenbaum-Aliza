@@ -83,7 +83,7 @@ footer {
   background-color: var(--color-primary);
   padding: var(--space-m);
   font-size: 80px;
-  margin-top: 8px;
+  margin-top: var(--space-m);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
