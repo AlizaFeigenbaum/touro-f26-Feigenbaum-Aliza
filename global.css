@@ -11,6 +11,13 @@
   --font: "Arial", Helvetica, sans-serif;
 }
 /* Flex is the right tool for the header because it lines everything up evenly spaced on one row*/
+body {
+  margin: 0;
+}
+header, footer {
+  margin-left: calc(-1*var(--space-m));
+  margin-right: calc(-1*var(--space-m));
+}
 header{
   background-color: var(--color-primary);
   padding: var(--space-s) var(--space-m);
