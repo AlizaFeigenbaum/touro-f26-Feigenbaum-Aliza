@@ -14,7 +14,7 @@ Task:
 
 ## Round 2 — tester: (Shira)
 ### Task 1
-- Finished?  with help 
-- Where they hesitated:
-- What they clicked that I didn't expect:
-- What they said:
+- Finished? with help 
+- Where they hesitated: Why there was a seprate resin page
+- What they clicked that I didn't expect: nothing
+- What they said: The picture that brings you to the resin page should bring you to the item instead
