@@ -43,8 +43,11 @@ h1 {
   padding: var(--space-m);
   color: var(--color-background);
   grid-column: 1/13;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
+}
+h2 {
+  font-weight: normal;
 }
 /*used grid-column to line up the place where pictures will go into rows of 2. Did 1/7 and 7/13 to center it on the page.*/
 .resin {
@@ -58,6 +61,7 @@ h1 {
   font-weight: bold;
   color: var(--color-text);
   text-decoration: none;
+  font-weight: normal;
 }
 .drawings {
   padding: var(--space-s);
