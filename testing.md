@@ -4,18 +4,17 @@ Task:
 3. Go back to the home page
 
 
-## Round 1 — tester: (name)
+## Round 1 — tester: (Meira)
 ### Task 1
 - Finished? yes
 - Where they hesitated: wasnt clear that the picture was clickable, gift picture is also the coaster set
 - What they clicked that I didn't expect: nothing
 - What they said: maybe add a button to the word resin
-      - change the wrapped coaster set
+      - change the wrapped coaster set picture
 
-
-## Round 2 — tester: (name)
+## Round 2 — tester: (Shira)
 ### Task 1
-- Finished? yes / with help / no
+- Finished?  with help 
 - Where they hesitated:
 - What they clicked that I didn't expect:
 - What they said:

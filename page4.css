@@ -12,6 +12,8 @@ main{
   grid-template-columns: repeat(12, 1fr);
   gap: var(--space-m);
   margin-top: 10rem;
+  align-content: start;
+  flex: 1;
 }
 h1{
   background-color: var(--color-textbox);
