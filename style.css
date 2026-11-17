@@ -50,7 +50,14 @@ h1 {
 .resin {
   padding: var(--space-s);
   grid-column: 1/7;
-  font-size: 20px;
+}
+.resin a:last-child {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--color-text);
+  text-decoration: none;
 }
 .drawings {
   padding: var(--space-s);
@@ -77,9 +84,10 @@ h1 {
   grid-column: 7/13;
   font-size: 20px;
 }
-section h2 {
+section {
   text-align: center;
 }
+
 @media (max-width: 400px){
   .resin,
   .drawings,
