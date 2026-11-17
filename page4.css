@@ -66,6 +66,10 @@ h1{
   grid-column: 5/9;
   text-align: center;
 }
+.shopping a {
+  color: var(--color-text);
+  text-decoration: none;
+}
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
 footer {
   background-color: var(--color-primary);

@@ -20,7 +20,7 @@ body{
 header{
   background-color:var(--color-primary);
   padding: var(--space-s) var(--space-m);
-  margin-bottom: var(--space-m);
+  margin-bottom: 4px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,9 +42,11 @@ img {
 .resin {
   background-color: var(--color-primary);
   color: var(--color-background);
-  padding: var(--space-m);
   font-size: 80px;
   text-align: center;
+}
+.resin h1 {
+  margin: 0;
 }
 .picture1 {
   padding: var(--space-m);
