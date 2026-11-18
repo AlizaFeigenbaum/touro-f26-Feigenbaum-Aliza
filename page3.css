@@ -83,7 +83,7 @@ h1{
       margin-right: auto;
       box-sizing: border-box;
       width: auto;
-      height: min(700px, 30vw);
+      height: 200px;
       max-width: 100%;
       object-fit: contain;
     }
@@ -97,8 +97,11 @@ h1{
         flex: 0 0 auto;
         width: 100%;
     }
-    .gallery section h2 img {
-      height: min(700px, 65vh);
+    .gallery section img, img {
+      width: auto;
+      height: 300px;
+      max-width: 100%;
+      object-fit: contain;
     }
     .information h2 {
       font-size: 15px;

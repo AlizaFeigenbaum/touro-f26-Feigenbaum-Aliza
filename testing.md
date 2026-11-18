@@ -7,7 +7,7 @@ Task:
 ## Round 1 — tester: (Meira)
 ### Task 1
 - Finished? yes
-- Where they hesitated: wasnt clear that the picture was clickable, gift picture is also the coaster set
+- Where they hesitated: wasn't clear that the picture was clickable, gift picture is also the coaster set
 - What they clicked that I didn't expect: nothing
 - What they said: 
       - maybe add a button to the word resin
@@ -23,6 +23,7 @@ Task:
 ## What I'm fixing
 ### Must fix (blocked a tester)
 - Make the text of the word "resin" a link - the tester didn't know what to press
+- Fix the scale - tester had to zoom out
 
 ### Should fix (slowed a tester down)
 - Change the picture of the wrapped coaster set - it is the same coasters as the resin picture which confused one tester
@@ -35,16 +36,18 @@ Task:
 - Make the shopping cart picture a lighter color
 
 ## What I changed
-1. Fixed the scale of all the pages
-2. Made the words under the linked picture links
-3. Linked the words "continue shopping" to the home page
+1. Fixed the scale of all the pages (@media, fixed heights, text sizes)
+2. Made the words under the linked picture links (resin and blue & gold leaf coaster set - pages 1 and 2)
+3. Linked the words "continue shopping" to the home page (page 4)
 4. Made the shopping cart picture light grey 
+5. Fixed the sizes of the header and footer pictures
+6. On page 2 I added text under the pictures with descriptions of the items
 
 ## Still on my list
-- ...
+- @media for page 3 still needs some work
 
 ## Final self-test
 - [x] Task 1 works from the home page
 - [x] Task 2 works from the home page
-- [x] Every link and button goes somewhere or says "coming soon"
+- [x] Every link and button goes somewhere
 - [x] Works at phone width

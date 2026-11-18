@@ -57,12 +57,20 @@ button {
   width: 100%;
   grid-column: 3/11;
 }
-@media (max-width: 1400px){
-  .item,
-  .info {
+@media (max-width: 400px){
+  h1 {
+    font-size: 20px;
+  }
+  .item, .info {
     grid-column: 1/13;
   }
   .info {
-    font-size: 40px;
+    font-size: 20px;
+  }
+  button {
+    font-size: 20px;
+    padding: 6px 14px;
+    width: auto;
+    justify-self: center;
   }
 }
