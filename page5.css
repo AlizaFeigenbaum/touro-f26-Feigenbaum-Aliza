@@ -24,7 +24,7 @@ img {
 }
 h1{
   background-color: var(--color-textbox);
-  font-size: 80px;
+  font-size: 30px;
   padding: var(--space-m);
   margin-bottom: var(--space-m);
   grid-column: 1/13; 
@@ -42,7 +42,7 @@ h1{
   background-color: var(--color-textbox);
   padding: 0;
   margin: 0;
-  font-size: 80px;
+  font-size: 30px;
   grid-column: 6/11;
   text-align: center;
   display: flex;
@@ -51,7 +51,7 @@ h1{
 }
 button {
   background-color: var(--color-textbox);
-  font-size: 80px;
+  font-size: 30px;
   padding: var(--space-m);
   margin-bottom: var(--space-m);
   width: 100%;

@@ -17,16 +17,16 @@ main{
 }
 h1{
   background-color: var(--color-textbox);
-  padding: 7rem;
-  font-size: 132px;
-  margin-bottom: var(--space-m);
+  padding: 3rem;
+  font-size: 30px;
+  margin-bottom: var(--space-s);
   grid-column: 3/11;
   text-align: center;
 }
 .cart {
   background-color: var(--color-textbox);
   padding: var(--space-m);
-  font-size: 80px;
+  font-size: 30px;
   margin-bottom: var(--space-m);
   grid-column: 5/9;
   text-align: center;
@@ -38,7 +38,7 @@ h1{
 .shopping {
   background-color: var(--color-textbox);
   padding: var(--space-m);
-  font-size: 80px;
+  font-size: 30px;
   margin-bottom: var(--space-m);
   grid-column: 5/9;
   text-align: center;
@@ -47,7 +47,7 @@ h1{
   color: var(--color-text);
   text-decoration: none;
 }
-@media (max-width: 1860px) {
+@media (max-width: 400px) {
   .shopping, .cart {
     font-size: 40px;
   } 

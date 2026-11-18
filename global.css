@@ -17,6 +17,8 @@ body {
 header, footer {
   margin-left: calc(-1*var(--space-m));
   margin-right: calc(-1*var(--space-m));
+  margin-top: calc(-1*var(--space-m));
+  margin-bottom: calc(-1*var(--space-m));
 }
 header{
   background-color: var(--color-primary);
@@ -34,7 +36,7 @@ header{
 footer {
   background-color:var(--color-primary);
   color: var(--color-background);
-  padding:var(--space-s);
+  padding: 2px var(--space-s);
   font-size: 25px;
   display: flex;
   justify-content: space-evenly;
