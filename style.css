@@ -55,15 +55,19 @@ h2 {
 .resin {
   padding: var(--space-s);
   grid-column: 1/7;
+  text-align: center;
 }
 .resin a:last-child {
-  display: block;
-  text-align: center;
+  display: inline-block;
+  background-color: var(--color-background);
+  padding: var(--space-s) var(--space-m);
   font-size: 30px;
   font-weight: bold;
   color: var(--color-text);
   text-decoration: none;
-  font-weight: normal;
+  border: 2px solid grey;
+  box-shadow: 0 4px 0 var(--color-textbox);
+  cursor: pointer;
 }
 .drawings {
   padding: var(--space-s);
