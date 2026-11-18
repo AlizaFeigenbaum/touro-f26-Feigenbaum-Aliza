@@ -18,3 +18,17 @@ Task:
 - Where they hesitated: Why there was a seprate resin page
 - What they clicked that I didn't expect: nothing
 - What they said: The picture that brings you to the resin page should bring you to the item instead
+
+## What I'm fixing
+### Must fix (blocked a tester)
+- Make the text of the word "resin" a link - tester wasn't sure what to press
+
+### Should fix (slowed a tester down)
+- Change the picture of the wrapped coaster set - it is the same coasters as the resin picture which confused one tester
+
+### From my Assignment 9 feedback 
+- Fix everything to make it work at a normal scale
+- Create global.css for :root, header and footer
+- Remove fixed heights
+- Make continue shopping a link back to the home page
+- Make the shopping cart picture a lighter color
