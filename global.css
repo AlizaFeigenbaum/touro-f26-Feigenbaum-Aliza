@@ -17,19 +17,23 @@ body {
 header, footer {
   margin-left: calc(-1*var(--space-m));
   margin-right: calc(-1*var(--space-m));
-  margin-top: calc(-1*var(--space-m));
   margin-bottom: calc(-1*var(--space-m));
 }
 header{
   background-color: var(--color-primary);
   padding: var(--space-s) var(--space-m);
   margin-bottom: var(--space-m);
+  margin-top: calc(-1*var(--space-m));
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-    header img {
-      width: 90px;
+    header > img {
+      width: 100px;
+      height: auto;
+    }
+    header a img {
+      width: 75px;
       height: auto;
     }
 /* Flex is the right tool for the footer because it lines everything up evenly spaced on one row*/
