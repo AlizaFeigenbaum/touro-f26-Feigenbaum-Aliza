@@ -50,3 +50,14 @@ footer a{
   color: var(--color-background);
   text-decoration: none;
 }
+
+@media (max-width: 475px) {
+  footer {
+    font-size: 14px;
+    justify-content: space-evenly;
+    padding: 4px;
+  }
+  footer a, footer span {
+    white-space: nowrap;
+  }
+}

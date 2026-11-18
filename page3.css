@@ -62,13 +62,14 @@ h1{
   text-decoration: none;
 }
 /*Used flexbox to make the 4 pictures in a row go from 4-2-1 as the page got smaller*/
-@media (max-width: 400px) {
+@media (max-width: 1080px) {
     .gallery {
         flex-wrap: wrap;
     }
     .gallery section {
       display: flex;  
-      flex: 0 0 calc(50% - 10px);
+      flex: 0 0 50%;
+      min-width: 0;
       box-sizing: border-box;
       justify-content: center;
     }
@@ -76,7 +77,7 @@ h1{
         width: 100%;
         min-width: 0;
     }
-    .gallery section h2 img {
+    .gallery section img {
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -98,5 +99,11 @@ h1{
     }
     .gallery section h2 img {
       height: min(700px, 65vh);
+    }
+    .information h2 {
+      font-size: 15px;
+    }
+    .cart {
+      font-size: 15px;
     }
 }

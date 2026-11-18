@@ -58,16 +58,11 @@ h2 {
   text-align: center;
 }
 .resin a:last-child {
-  display: inline-block;
-  background-color: var(--color-background);
-  padding: var(--space-s) var(--space-m);
+  display: block;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: normal;
   color: var(--color-text);
   text-decoration: none;
-  border: 2px solid grey;
-  box-shadow: 0 4px 0 var(--color-textbox);
-  cursor: pointer;
 }
 .drawings {
   padding: var(--space-s);
@@ -97,7 +92,6 @@ h2 {
 section {
   text-align: center;
 }
-
 @media (max-width: 400px){
   .resin,
   .drawings,
