@@ -52,6 +52,15 @@ footer a{
 }
 
 @media (max-width: 475px) {
+    
+    header img {
+      width: 65px;
+      height: auto;
+    }
+    header a img {
+      width: 45px;
+      height: auto;
+    }
   footer {
     font-size: 14px;
     justify-content: space-evenly;
