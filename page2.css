@@ -35,6 +35,12 @@ img {
   padding: var(--space-m);
   grid-column: 1/7;
 }
+    .picture1 a span{
+      transition: color 0.3s;
+    }
+    .picture1 a span:hover {
+    color:rgb(1, 144, 144);
+}
 .picture2 {
   padding: var(--space-m);
   grid-column: 7/13;

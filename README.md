@@ -73,3 +73,10 @@ A cold start takes **1–3 minutes**. Here's why:
 * **Your work is saved automatically.** Even if the Codespace stops, the files are stored on GitHub. You won't lose anything.  
 * **You get a fixed number of free hours per month** through the GitHub Student Developer Pack. A cold start uses some of those hours just booting up, so it's worth keeping one Codespace alive while you're actively working.  
 * **If you need to work offline,** you can always install VS Code and Git locally instead but it does take some set up — Codespaces is a convenience, not a requirement.
+
+
+## Animations
+[What] on [which page] — [why it helps]
+1. I added a hover transition on the words resin (page 1) and blue & gold leaf coaster set (page 2) to make it clear that the texts are links and can be clicked on.
+2. ...
+3. 

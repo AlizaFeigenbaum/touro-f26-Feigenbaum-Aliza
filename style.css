@@ -63,6 +63,10 @@ h2 {
   font-weight: normal;
   color: var(--color-text);
   text-decoration: none;
+  transition: color 0.3s;
+}
+  .resin a:last-child:hover {
+    color:rgb(1, 144, 144);
 }
 .drawings {
   padding: var(--space-s);
