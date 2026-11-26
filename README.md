@@ -76,7 +76,6 @@ A cold start takes **1–3 minutes**. Here's why:
 
 
 ## Animations
-[What] on [which page] — [why it helps]
-1. I added a hover transition on the words resin (page 1) and blue & gold leaf coaster set (page 2) to make it clear that the texts are links and can be clicked on.
+1. I added a hover transition on the words resin (page 1) and blue & gold leaf coaster set (page 2) which changes the text color from black to blue. This is to make it clear that the texts are links and can be clicked on.
 2. I added a scale transition on the row of pictures on page 3 so when you hover over the picture you can see it bigger and in more details.
-3. 
+3. I added lift and drop shadow to the pictures of the blue & gold leaf resin coasters on pages 1 & 2 so its very clear that you can press on the pictures (they are links to the next page)
